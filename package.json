@@ -1,0 +1,29 @@
+{
+  "name": "search",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "eslint --ext .js",
+    "clean": "rimraf {dist,.parcel-cache}",
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url ./"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "eslint": "^8.33.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "parcel": "^2.8.3",
+    "rimraf": "^4.1.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "dayjs": "^1.11.7",
+    "eslint-config-prettier": "^8.6.0"
+  }
+}
